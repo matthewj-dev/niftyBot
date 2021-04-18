@@ -20,7 +20,6 @@ namespace niftyBot
             _logger = logger;
         }
 
-        // Hello
         public override Task StartAsync(CancellationToken stoppingToken)
         {
             _client = new HttpClient();
